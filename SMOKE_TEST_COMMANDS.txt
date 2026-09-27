@@ -1,0 +1,15 @@
+create_table users name:str age:int is_active:bool
+list_tables
+insert into users values ("Sergei", 28, true)
+insert into users values ("Anna", 22, false)
+select from users
+select from users where name = "Sergei"
+update users set age = 29 where name = "Sergei"
+select from users
+delete from users where ID = 2
+y
+info users
+drop_table users
+y
+list_tables
+exit
