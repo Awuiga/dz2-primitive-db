@@ -1,0 +1,9 @@
+.venv/
+dist/
+data/
+db_meta.json
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
