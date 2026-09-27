@@ -1,10 +1,4 @@
 # Primitive Database
-
-Учебная консольная база данных на Python.
-
-В проекте можно создавать и удалять таблицы, добавлять, читать,
-изменять и удалять записи. Данные сохраняются в JSON-файлах.
-
 ## Возможности
 
 - создание таблиц;
@@ -206,16 +200,12 @@ list_tables
 exit
 ```
 
-Этот сценарий показывает создание таблицы, все CRUD-операции,
-работу `confirm_action` и удаление таблицы.
+## Демонстрация работы
 
-## Asciinema
+Запись показывает создание таблицы, CRUD-операции,
+работу подтверждения действий и удаление таблицы.
 
-После записи замените ссылку ниже на свою:
-
-```markdown
-[![asciicast](https://asciinema.org/a/ID.svg)](https://asciinema.org/a/ID)
-```
+[![asciicast](https://asciinema.org/a/qCWHGUy8rQqzogKf.svg)](https://asciinema.org/a/qCWHGUy8rQqzogKf)
 
 ## Команды Makefile
 
